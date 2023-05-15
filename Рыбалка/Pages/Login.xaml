@@ -1,0 +1,25 @@
+﻿<Page x:Class="Рыбалка.Pages.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Рыбалка.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Login">
+
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.17*"></ColumnDefinition>
+            <ColumnDefinition Width="0.46*"></ColumnDefinition>
+            <ColumnDefinition Width="0.17*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Margin="0 0 0 270" Text="Вход" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Comic Sans MS" FontSize="41" Foreground="#FF498C51" Grid.Column="1"></TextBlock>
+        <TextBlock Margin="0 0 0 170" Text="Логин" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Comic Sans MS" FontSize="21" Foreground="#FF498C51" Grid.Column="1"></TextBlock>
+        <TextBox Name="login" Margin="0 0 0 100"  VerticalAlignment="Center" FontFamily="Comic Sans MS" FontSize="21" BorderBrush="#FF498C51" Grid.Column="1"></TextBox>
+        <TextBlock Margin="0 0 0 20" Text="Пароль" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Comic Sans MS" FontSize="21" Foreground="#FF498C51" Grid.Column="1"></TextBlock>
+        <PasswordBox Name="password" Margin="0 0 0 -50"  VerticalAlignment="Center" FontFamily="Comic Sans MS" FontSize="21" BorderBrush="#FF498C51" Grid.Column="1"></PasswordBox>
+        <Button Name="ButtonLogin" Click="loginBtn" Width="77" Height="30" Margin="0 0 90 -150" Content="Войти" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Comic Sans MS" FontSize="15" Background="#FF498C51" Foreground="White" Grid.Column="1"></Button>
+        <Button Name="ButtonGuest" Click="guestBtn" Width="77" Height="30" Margin="80 0 0 -150" Content="Гость" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Comic Sans MS" FontSize="15" Background="#FF498C51" Foreground="White" Grid.Column="1"></Button>
+    </Grid>
+</Page>
