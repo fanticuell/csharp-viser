@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 
 namespace Рыбалка
 {
+    ГОВНОКОДИЩЕ ААААААААА
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
